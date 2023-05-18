@@ -372,7 +372,7 @@ html {
     margin-left: 2.4rem;
     position: relative;
   }
-  
+
   .textarea {
     padding: 1rem;
     max-width: 90%;
@@ -405,7 +405,12 @@ html {
     margin-left: -1.2rem;
     margin-top: 0.3rem;
   }
-  contact .contact-email img {
+  /* .contact .contact-address .add-icon {
+    color: #3C83D7;
+    font-size: 1.6rem;
+    padding-top: 7px !important;
+} */
+  .contact .contact-email img {
     margin-top: 0.5rem;
     margin-left: -0.2rem;
   }
@@ -837,99 +842,104 @@ html {
   .information {
     display: flex;
     flex-direction: column;
-  } 
-  .infor, .contact {
+  }
+  .infor,
+  .contact {
     width: 100%;
     height: 560px;
     border-radius: 20px;
-}
-.infor h5, .contact h5 {
-  font-size: 2rem;
-  line-height: 1rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-  padding-top: 2.5rem;
-  padding-left: 2rem;
-}
-.infor .infor-intro, .contact .contact-intro {
-  font-size: 1.5rem;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-  color: #828282;
-  padding-top: 2rem;
-  padding-left: 2.3rem;
-  max-width: 520px;
-}
-.infor .infor-mail {
-  margin-top: 1.0rem;
-  margin-left: 2.2rem;
-}
-.infor .infor-mail p {
-  font-size: 1.6rem;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-  font-weight: 400;
-  color: #000;
-  padding-bottom: 0.5rem;
-}
-.infor .infor-mes {
-  margin-top: 2.0rem;
-  margin-left: 2.3rem;
-  position: relative;
-}
-.infor .infor-mes p {
-  font-size: 1.6rem;
-  line-height: 2.0rem;
-  letter-spacing: 0.5px;
-  padding-bottom: 8px;
-}
-.infor .infor-name {
-  margin-top: 2.0rem;
-  margin-left: 2.1rem;
-  position: relative;
-}
-.infor .infor-name p {
-  font-size: 1.6rem;
-  line-height: 2.0rem;
-  padding-bottom: 1.0rem;
-}
-.infor .infor-name button {
-  width: 9.0rem;
-  height: 5.0rem;
-  background-color: #3C83D7;
-  border-radius: 20px;
-  color: #fff;
-  border: none;
-  margin-left: 0.2rem;
-  cursor: pointer;
-  margin-top: 0.6rem;
-}
-.contact .fonts {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  color: #333;
-}
-.ml-2 {
-  margin-left: 2rem !important;
-}
-.contact .contact-phone .phone-icon {
-  padding-top: 7px;
-  color: #3C83D7;
-}
-.contact .contact-email img {
-  margin-top: 0px;
-}
-.our-network-content {
-  display: flex;
-  flex-direction: column;
-  margin-left: 33px;
-  margin-top: 24px;
-}
-
-
-
+  }
+  .infor h5,
+  .contact h5 {
+    font-size: 2rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+  }
+  .infor .infor-intro,
+  .contact .contact-intro {
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #828282;
+    padding-top: 2rem;
+    padding-left: 2.3rem;
+    max-width: 520px;
+  }
+  .infor .infor-mail {
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+  }
+  .infor .infor-mail p {
+    font-size: 1.6rem;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #000;
+    padding-bottom: 0.5rem;
+  }
+  .infor .infor-mes {
+    margin-top: 2rem;
+    margin-left: 2.3rem;
+    position: relative;
+  }
+  .infor .infor-mes p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 8px;
+  }
+  .infor .infor-name {
+    margin-top: 2rem;
+    margin-left: 2.1rem;
+    position: relative;
+  }
+  .infor .infor-name p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+  }
+  .infor .infor-name button {
+    width: 9rem;
+    height: 5rem;
+    background-color: #3c83d7;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    margin-top: 0.6rem;
+  }
+  .contact .fonts {
+    font-size: 1.4rem;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #333;
+    max-width: 50rem;
+    margin-top: 0.6rem;
+  }
+  .ml-2 {
+    margin-left: 2rem !important;
+  }
+  .contact .contact-phone .phone-icon {
+    padding-top: 7px;
+    color: #3c83d7;
+  }
+  .contact .contact-email img {
+    margin-top: 0.4rem;
+  }
+  .our-network-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-top: 24px;
+  }
+  .network-none {
+    display: none;
+  }
 
   .content-bot-1-child img {
     bottom: 70%;
