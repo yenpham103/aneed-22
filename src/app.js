@@ -10,33 +10,42 @@ $(document).ready(function(){
     }
     );
     
+    
 $('.what-slider').slick({
-    centerMode: true,
-    // centerPadding: '60px',
-    slidesToShow: 5,
-    slidesToScroll:1,
-    infinite: true,
-responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-  });
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+
+});
+
+	
+// $('.what-slider').slick({
+//     centerMode: true,
+//     // centerPadding: '60px',
+//     slidesToShow: 5,
+//     slidesToScroll:1,
+//     infinite: true,
+// responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         arrows: false,
+//         centerMode: true,
+//         centerPadding: '40px',
+//         slidesToShow: 3
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         arrows: false,
+//         centerMode: true,
+//         centerPadding: '40px',
+//         slidesToShow: 1
+//       }
+//     }
+//   ]
+//   });
 
 
 });

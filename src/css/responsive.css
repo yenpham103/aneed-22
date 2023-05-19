@@ -415,15 +415,15 @@ html {
     margin-left: -0.2rem;
   }
   .our-network-content {
-    gap: 6rem;
+    gap: 1rem;
   }
   .our-network-content {
     display: flex;
-    margin-left: 3rem;
-    margin-top: 2.4rem;
+    /* margin-left: 3rem; */
+    /* margin-top: 2.4rem; */
   }
   .display-flex p {
-    font-size: 1.4rem;
+    font-size: 1.4rem ;
     line-height: 2.3rem;
     padding-top: 0.6rem;
   }
@@ -536,6 +536,11 @@ html {
     max-width: 40.5rem;
     padding-top: 1.1rem;
   }
+  .network-right .display-flex img {
+    width: 25px;
+    height: 25px;
+    display: flex;
+  }
   .header__content-text {
     color: #fff;
     margin-top: 1.5rem;
@@ -569,6 +574,14 @@ html {
   .footer-top .footer-top-text h2 {
     font-size: 1.6rem;
   }
+  .display-flex p {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #828282;
+    text-align: center;
+    padding-top: 6px;
+}
   /*  */
   .nav-menu {
     display: block;
@@ -871,6 +884,7 @@ html {
   .infor .infor-mail {
     margin-top: 1rem;
     margin-left: 2.2rem;
+    margin-right: 2.2rem;
   }
   .infor .infor-mail p {
     font-size: 1.6rem;
@@ -882,7 +896,8 @@ html {
   }
   .infor .infor-mes {
     margin-top: 2rem;
-    margin-left: 2.3rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
     position: relative;
   }
   .infor .infor-mes p {
@@ -893,7 +908,8 @@ html {
   }
   .infor .infor-name {
     margin-top: 2rem;
-    margin-left: 2.1rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
     position: relative;
   }
   .infor .infor-name p {
@@ -920,7 +936,7 @@ html {
     color: #333;
     max-width: 50rem;
     margin-top: 0.6rem;
-  }
+  }e
   .ml-2 {
     margin-left: 2rem !important;
   }
@@ -937,8 +953,11 @@ html {
     margin-left: 33px;
     margin-top: 24px;
   }
-  .network-none {
+  /* .network-none {
     display: none;
+  } */
+  .network-none  {
+    display: block !important;
   }
 
   .content-bot-1-child img {

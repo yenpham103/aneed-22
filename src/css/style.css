@@ -846,7 +846,9 @@ img {
 .contact .contact-address .add-icon {
   padding-top: 25px;
   color: #3c83d7;
-  font-size: 18px;
+  font-size: 18px !important;
+  width: 30px;
+  height: 30px;
 }
 .contact .contact-phone .phone-icon {
   padding-top: 10px;
@@ -971,7 +973,7 @@ img {
   letter-spacing: 1px;
 }
 .footer-mid p {
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   line-height: 32px;
   font-weight: 400;
@@ -979,6 +981,7 @@ img {
 }
 .footer-mid i {
   color: #fff;
+  font-size: 17px;
 }
 .ml-0 {
   margin-left: 0;
@@ -994,7 +997,7 @@ img {
 }
 .footer-mid-tax p {
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -1090,7 +1093,7 @@ img {
   border-radius: 100%;
 }
 .slick-track {
-  height: 678px;
+  height: 100%;
 }
 .what-group-1:nth-child(even) {
   background-color: white;
