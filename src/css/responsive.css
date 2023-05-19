@@ -43,6 +43,10 @@ html {
   .container-group {
     margin: 0 11.2rem;
   }
+  .infor-btn {
+    display: flex;
+    flex-direction: column;
+  }
   .why-img img {
     object-fit: contain;
     scale: 1.6;
@@ -109,6 +113,10 @@ html {
   }
   .header-other {
     display: none;
+  }
+  .infor-btn {
+    display: flex;
+    flex-direction: column;
   }
   .nav-menu-icon {
     display: block;
@@ -835,6 +843,11 @@ html {
     margin-top: 1rem;
     margin-left: 2.4rem;
     position: relative;
+  }
+  .infor-btn {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
   }
 
 
