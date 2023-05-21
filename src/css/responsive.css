@@ -2,7 +2,7 @@ html {
   font-size: 62.5% !important;
 }
 /* pc */
-@media (min-width: 1024px) and (max-width: 1254px) {
+@media (min-width: 1024px) and (max-width: 1468px) {
   .bot-img {
     display: none;
   }
@@ -96,6 +96,11 @@ html {
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    display: flex;
+    justify-content: unset;
+    position: relative;
+  }
   .bot-img {
     display: none;
   }
@@ -510,6 +515,11 @@ html {
   }
 }
 @media (min-width:500px) and (max-width:767.99px) {
+  .header {
+    display: flex;
+    justify-content: unset;
+    position: relative;
+  }
   .bot-img {
     display: none;
   }
@@ -982,6 +992,11 @@ html {
   #main {
     width: 100%;
     height: 43rem;
+  }
+  .header {
+    display: flex;
+    justify-content: unset;
+    position: relative;
   }
   .header__content-img {
     position: absolute;

@@ -19,6 +19,7 @@ img {
 }
 .header {
   display: flex;
+  justify-content: center;
   position: relative;
 }
 /* logo */
@@ -116,12 +117,13 @@ img {
   line-height: 20px;
   color: #4f4f4f;
   font-weight: 500;
-  padding-right: 4px;
+  padding-right: 3px;
+  margin-left: -5px;
 }
 .header__other-vie i {
   color: #4f4f4f;
   padding-top: 2px;
-  padding-right: 8px;
+  padding-right: 12px;
 }
 .header__img-frame {
   position: absolute;
@@ -804,7 +806,6 @@ img {
 }
 .infor-btn {
   display: flex;
-  justify-content: center;
   padding-right: 20px;
 }
 .infor .infor-name button {
@@ -848,7 +849,7 @@ img {
   margin-top: 30px;
 }
 .contact .contact-address .add-icon {
-  padding-top: 25px;
+  padding-top: 10px;
   color: #3c83d7;
   font-size: 18px !important;
   width: 30px;
