@@ -499,18 +499,19 @@ img {
   width: 100%;
   height: 634px;
   margin-top: 160px;
+  padding: 61px 0 0 120px ;
   position: relative;
 }
 .why-text {
-  padding-top: 62px;
-  margin-left: 118px;
+  margin: 0 auto;
+
 }
 .why-text h3 {
   font-size: 34px;
   line-height: 32px;
   font-weight: 500;
   color: #3a8ecb;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .why-text p {
   font-size: 18px;
@@ -521,16 +522,16 @@ img {
 }
 .why-img img {
   width: 667px;
-  height: 445px;
+  /* height: 445px; */
   object-fit: cover;
-  padding-left: 109px;
+  /* padding-left: 109px; */
 }
 .why-img-content {
   display: flex;
 }
 .container-icon {
-  margin-top: 10px;
-  margin-left: 40px;
+  /* margin-top: 10px;
+  margin-left: 40px; */
   display: flex;
 }
 .why-icon-1,
@@ -543,7 +544,7 @@ img {
   border-radius: 100%;
   background-color: transparent;
   border: 2px solid #faf2de;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -551,7 +552,7 @@ img {
 
 .why-icon-child button {
   width: 140px;
-  height: 140px;
+  height: 140px; 
   border-radius: 100rem;
   background-color: #fff;
   border: dashed #086193;
@@ -563,8 +564,8 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-bottom: 100px;
-  margin-left: 50px;
+  /* margin-bottom: 100px;
+  margin-left: 50px; */
 }
 .grid-item {
   text-align: center;
@@ -693,16 +694,18 @@ img {
 .information {
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  padding: 40px;
   gap: 30px;
 }
 .infor,
 .contact {
   width: 50%;
-  height: 680px;
+  /* height: 680px; */
   background: #fff;
   box-shadow: -1px 4px 24px 0px #0000001f;
   border-radius: 20px;
+  padding: 42px 32px 40px 32px ;
+
 }
 .infor h5,
 .contact h5 {
@@ -711,8 +714,7 @@ img {
   letter-spacing: 1px;
   font-weight: 600;
   color: #000;
-  padding-top: 42px;
-  padding-left: 32px;
+  margin-bottom: 47px;
 }
 .infor .infor-intro,
 .contact .contact-intro {
@@ -720,13 +722,10 @@ img {
   line-height: 32px;
   letter-spacing: 0.5px;
   color: #828282;
-  padding-top: 47px;
-  padding-left: 32px;
-  max-width: 520px;
+  /* max-width: 520px; */
+  margin-bottom: 24px;
 }
 .infor .infor-mail {
-  margin-top: 24px;
-  margin-left: 32px;
   position: relative;
 }
 .infor .infor-mail p {
@@ -735,7 +734,7 @@ img {
   letter-spacing: 0.5px;
   font-weight: 400;
   color: #000;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .textarea {
@@ -759,8 +758,6 @@ img {
 }
 
 .infor .infor-mes {
-  margin-top: 26px;
-  margin-left: 32px;
   position: relative;
 }
 .infor .infor-mes p {
@@ -769,11 +766,9 @@ img {
   letter-spacing: 0.5px;
   font-weight: 400;
   color: #000;
-  padding-bottom: 8px;
+  margin-bottom: 10px;
 }
 .infor .infor-name {
-  margin-top: 26px;
-  margin-left: 32px;
   position: relative;
 }
 .infor .infor-name p {
@@ -806,7 +801,6 @@ img {
 }
 .infor-btn {
   display: flex;
-  padding-right: 20px;
 }
 .infor .infor-name button {
   width: 90px;
@@ -828,15 +822,15 @@ img {
   font-size: 20px;
   line-height: 32px;
   font-weight: 500;
-  padding-top: 6px;
 }
 .d-flex {
   display: flex;
+  justify-content: start;
+  align-items: center;
   gap: 31px;
-  margin-top: 20px;
-  margin-left: 30px;
 }
 .contact .contact-address {
+  margin-bottom: 21px;
 }
 .contact .fonts {
   font-size: 17px;
@@ -849,28 +843,26 @@ img {
   margin-top: 30px;
 }
 .contact .contact-address .add-icon {
-  padding-top: 10px;
   color: #3c83d7;
   font-size: 18px !important;
   width: 30px;
   height: 30px;
 }
 .contact .contact-phone .phone-icon {
-  padding-top: 10px;
   color: #3c83d7;
   font-size: 18px;
 }
 .contact .contact-email img {
-  margin-top: 5px;
+  /* margin-top: 5px; */
   color: #3c83d7;
-}
+/* }
 .contact-phone p {
   margin-left: -5px;
 }
 .contact-email p {
   margin-left: -12px;
   /* margin-top: -6px; */
-}
+} */
 .contact-nav {
   width: calc(100%-64px);
   height: 1px;
@@ -888,8 +880,6 @@ img {
 }
 .our-network-content {
   display: flex;
-  margin-left: 65px;
-  margin-top: 24px;
   gap: 185px;
 }
 .display-flex {
