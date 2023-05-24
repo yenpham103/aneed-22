@@ -49,7 +49,6 @@ html {
   }
   .why-img img {
     object-fit: contain;
-    scale: 1.6;
   }
   .what-content-bot {
     margin: 0;
@@ -266,8 +265,6 @@ html {
     display: none;
   }
   .why-img img {
-    width: 65rem;
-    height: 40rem;
     object-fit: cover;
     padding-left: 12.5rem;
   }
@@ -710,16 +707,17 @@ html {
   }
   .why-text {
     padding-top: 4rem;
-    margin-left: 6.3rem;
+    margin: 0 6.3rem;
   }
   .container-icon {
     display: none;
   }
   .why-img img {
-    width: 60rem;
-    height: 30rem;
     object-fit: cover;
     padding-left: 12.5rem;
+  }
+  .why-container {
+    padding: 1px 1px !important;
   }
   .our-services-logo {
     margin-left: 7rem;
@@ -1126,11 +1124,9 @@ html {
 
   .modal {
     position: fixed;
-    width: 80%;
-    height: 50rem;
     top: 50%;
-  left: 60%;
-  transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1000;
     display: none;
   }
@@ -1143,15 +1139,16 @@ html {
     display: block !important;
   }
   .modal-container {
+    max-width: 365px;
+    width: 100%;
     background-color: #fff;
-    width: 75%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     border-radius: 1rem;
     box-shadow: -0.1rem 0.4rem 2.4rem 0rem #0000001f;
+    padding: 120px 130px
   }
   .modal-menu {
   }
@@ -1330,13 +1327,19 @@ html {
   }
   .why-text {
     padding-top: 3rem;
-    margin-left: 3rem;
+    margin: 0 3rem;
+  }
+  .why-img  {
+    width: 240px;
+    height: 240px;
   }
   .why-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    padding-left: 8rem;
+    object-fit: contain;
+  }
+  .why-container {
+    padding: 1px 1px !important;
   }
   .what h3 {
     margin-top: 2.2rem;
