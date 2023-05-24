@@ -9,13 +9,10 @@ html {
   #main {
   }
   .header-logo {
-    margin-top: 3.2rem;
-    margin-left: 1rem;
-    display: flex;
   }
   .header-nav {
-    margin-left: 4.6rem;
-    margin-top: 4.6rem;
+    /* margin-left: 4.6rem;
+    margin-top: 4.6rem; */
   }
   .header-nav .nav__list {
     display: flex;
@@ -24,24 +21,26 @@ html {
     gap: 3rem;
   }
   .header-other {
-    margin-top: 3.4rem;
+    /* margin-top: 3.4rem;
     margin-left: 8.6rem;
-    display: flex;
+    display: flex; */
   }
   .our-services-skill {
     margin: 4.5rem 6rem 0 6rem;
   }
   .header-other {
-    margin-right: 0;
+    /* margin-right: 0; */
   }
   .header-logo {
-    display: none;
+    /* display: none; */
   }
   .process-group-none {
     display: none;
   }
   .container-group {
-    margin: 0 11.2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px 30px;
   }
   .infor-btn {
     display: flex;
@@ -97,14 +96,17 @@ html {
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
     display: flex;
-    justify-content: unset;
-    position: relative;
+    justify-content: space-between;
+    align-items: center;
   }
   .bot-img {
     display: none;
   }
   .header-logo {
-    display: none;
+    /* display: none; */
+  }
+  .nav-menu{
+    display: block;
   }
   .process-group-none {
     display: none;
@@ -122,17 +124,18 @@ html {
     display: flex;
     flex-direction: column;
   }
+  .main-content {
+    max-width: 750px;
+    padding: 46px 0;
+    margin: 0 auto;
+}
+  
   .nav-menu-icon {
     display: block;
     color: #fff;
-    position: absolute;
-    top: 3.2rem;
-    right: 4rem;
     font-size: 4rem;
   }
   .header-logo {
-    margin-top: 3.2rem;
-    margin-left: 7rem;
     display: flex;
   }
   .header__content-text h2 {
@@ -214,10 +217,12 @@ html {
     font-size: 2.3rem;
     cursor: pointer;
   }
+  .our-services, .our-products, .process {
+    padding: 0 50px;
+}
   .our-services-logo h2 {
   }
   .our-services-text {
-    margin-left: 3.6rem;
   }
   .our-services-skill {
     margin: 2rem 1rem 0 1rem;
@@ -237,7 +242,20 @@ html {
     top: 2.3rem;
   }
   .container-group {
-    margin: 0 4.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 50px;
+    justify-content: center;
+    
+  }
+  .products {
+    width: 100%;
+    height: 900px;
+  }
+  .products-child {
+    width: 1216px;
+    max-width: 100%;
+    height: 700px;
   }
   .process-group-1 {
     scale: 0.8;
@@ -252,14 +270,15 @@ html {
     margin: 1.4rem 0 0rem 11.5rem;
   }
   .process-navbar-img {
-    margin: 0 0 -4rem -6.5rem;
+    position: absolute;
+    top: 34%;
+    scale: 0.8;
   }
   .why {
     margin-top: 2rem;
   }
   .why-text {
     padding-top: 4rem;
-    margin-left: 6.3rem;
   }
   .container-icon {
     display: none;
@@ -269,11 +288,9 @@ html {
     padding-left: 12.5rem;
   }
   .our-services-logo {
-    margin-left: 7rem;
   }
   .process-text {
     margin-top: 1.5rem;
-    margin-left: 7.5rem;
   }
   .prd-child-img-2 {
     display: block !important;
@@ -511,17 +528,17 @@ html {
     gap: 2.5rem;
   }
 }
+
 @media (min-width:500px) and (max-width:767.99px) {
   .header {
     display: flex;
-    justify-content: unset;
-    position: relative;
+    justify-content: space-between;
   }
   .bot-img {
     display: none;
   }
   .header-logo {
-    display: none;
+    display: flex;
   }
   .process-group-none {
     display: none;
@@ -555,6 +572,12 @@ html {
   margin-top: 20px;
   gap: 185px;
 }
+.our-services, .our-products,.process {
+  padding: 0 30px;
+}
+.our-services {
+margin: 30px 0;
+}
 /* .display-flex > img {
   width: 3rem;
   height: 3rem;
@@ -573,15 +596,12 @@ html {
   .nav-menu-icon {
     display: block;
     color: #fff;
-    position: absolute;
-    top: 3.2rem;
-    right: 4rem;
     font-size: 4rem;
   }
   .header-logo {
-    margin-top: 3.2rem;
+    /* margin-top: 3.2rem;
     margin-left: 7rem;
-    display: flex;
+    display: flex; */
   }
   .header__content-text h2 {
     font-size: 2.8rem;
@@ -665,10 +685,15 @@ html {
   .our-services-logo h2 {
   }
   .our-services-text {
-    margin-left: 3.6rem;
   }
   .our-services-skill {
+    display: grid;
+    grid-template-columns: auto auto;
     margin: 2rem 1rem 0 1rem;
+  }
+  .group-img-500 {
+    width: 80px;
+    height: 80px;
   }
   .group-1 p,
   .group-2 p,
@@ -677,15 +702,30 @@ html {
     font-size: 1.2rem;
     line-height: 1.6rem;
   }
-  .our-services-skill .our-services-img .group-1,
-  .our-services-skill .our-services-img .group-2,
-  .our-services-skill .our-services-img .group-3,
+  .our-services-skill .our-services-img .group-1 {
+    position: absolute;
+    top: 3.9rem;
+  }
+
+  .our-services-skill .our-services-img .group-2 {
+    position: absolute;
+    top: 3.9rem;
+  }
+  .our-services-skill .our-services-img .group-3 {
+    position: absolute;
+    top: 31rem;
+  }
   .our-services-skill .our-services-img .group-4 {
     position: absolute;
-    top: 2.3rem;
+    top: 31rem;
+    
+
   }
   .container-group {
-    margin: 0 4.5rem;
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: center;
+    gap: 90px 175px;
   }
   .process-group-1 {
     scale: 0.8;
@@ -697,17 +737,15 @@ html {
     scale: 0.8;
   }
   .process-person {
-    margin: 1.4rem 0 0rem 11.5rem;
+    margin-left: 5.5rem;
   }
   .process-navbar-img {
-    margin: 0 0 -4rem -6.5rem;
   }
   .why {
-    margin-top: 2rem;
+    padding: 0 30px ;
   }
   .why-text {
     padding-top: 4rem;
-    margin: 0 6.3rem;
   }
   .container-icon {
     display: none;
@@ -720,11 +758,8 @@ html {
     padding: 1px 1px !important;
   }
   .our-services-logo {
-    margin-left: 7rem;
   }
   .process-text {
-    margin-top: 1.5rem;
-    margin-left: 7.5rem;
   }
   .prd-child-img-2 {
     display: block !important;
@@ -855,7 +890,6 @@ html {
   .infor-btn {
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
   }
 
 
@@ -993,8 +1027,7 @@ html {
   }
   .header {
     display: flex;
-    justify-content: unset;
-    position: relative;
+    justify-content: space-between;
   }
   .header__content-img {
     position: absolute;
@@ -1005,8 +1038,7 @@ html {
     display: none;
   }
   .header-logo {
-    margin-top: 1rem;
-    margin-left: 2.5rem;
+
   }
   .header__logo-img img {
     width: 4rem;
@@ -1028,6 +1060,9 @@ html {
   .header-nav,
   .container-icon {
     display: none;
+  }
+  .header__content-text {
+    margin-top: 40px;
   }
  
   .header__content-text h2 {
@@ -1054,8 +1089,6 @@ html {
   }
   .header__content-text {
     color: #fff;
-    margin-top: 1.5rem;
-    margin-left: 3rem;
   }
   /* none tam thoi */
   .process-group-1 {
@@ -1100,9 +1133,6 @@ html {
   .nav-menu-icon {
     display: block;
     color: #fff;
-    position: absolute;
-    top: 1.2rem;
-    right: 2rem;
     font-size: 3rem;
   }
   .nav-menu {
@@ -1168,6 +1198,9 @@ html {
     font-size: 2.3rem;
     cursor: pointer;
   }
+  .our-services {
+    padding: 10px 30px;
+  }
   .our-services-logo h2 {
     font-size: 1.8rem;
     line-height: 2rem;
@@ -1178,20 +1211,14 @@ html {
   }
   .our-services-logo {
     display: flex;
-    margin-top: 3rem;
-    margin-left: 3rem;
   }
   .our-services-text p {
     font-size: 1.4rem;
     line-height: 2.2rem;
   }
   .our-services-text {
-    margin-top: 10px;
-    margin-left: 30px;
   }
   .our-product-text {
-    margin-top: 15px;
-    margin-left: 30px;
   }
   .our-services-skill {
     display: block;
@@ -1212,6 +1239,9 @@ html {
   }
   .our-services-skill .our-services-img .group-4 {
     top: 81rem;
+  }
+  .our-products {
+    padding: 10px 30px;
   }
   .our-product-text p {
     font-size: 1.6rem;
@@ -1235,6 +1265,8 @@ html {
   }
   .products {
     display: none;
+  }
+  .products-child {
   }
   .products-child-img img {
     object-fit: contain;
@@ -1287,9 +1319,13 @@ html {
     color: #4f4f4f;
     max-width: 1225px;
   }
+  .process {
+    padding: 0 30px;
+  }
+  .process-person-img img, .process-navbar-img img {
+    display: none;
+  }
   .process-text {
-    margin-top: 0.5rem;
-    margin-left: 2rem;
   }
   .process-person {
     display: flex;
@@ -1308,7 +1344,7 @@ html {
     scale: 0.7;
   }
   .container-group {
-    margin: 0 0 0 -0.7rem;
+    display: none;
   }
   .process-navbar-img {
     position: absolute;
@@ -1316,7 +1352,7 @@ html {
     left: 0.5rem;
   }
   .why {
-    margin-top: 2rem;
+    padding: 0 30px;
   }
   .why-text h3 {
     font-size: 1.9rem;
@@ -1327,7 +1363,6 @@ html {
   }
   .why-text {
     padding-top: 3rem;
-    margin: 0 3rem;
   }
   .why-img  {
     width: 240px;
@@ -1370,7 +1405,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 9rem;
+    gap: 12rem;
   }
   .information {
     display: flex;
@@ -1438,7 +1473,6 @@ html {
   .infor .infor-name p {
     font-size: 1.6rem;
     line-height: 2rem;
-    padding-bottom: 1rem;
   }
   .infor .infor-name button {
     width: 9rem;
@@ -1449,7 +1483,7 @@ html {
     border: none;
     margin-left: 0.2rem;
     cursor: pointer;
-    margin-top: 0.6rem;
+    margin-top: 1.6rem;
   }
   .contact .fonts {
     font-size: 1.4rem;
