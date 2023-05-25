@@ -598,8 +598,7 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  /* margin-bottom: 100px;
-  margin-left: 50px; */
+  gap: 7px;
 }
 .grid-item {
   text-align: center;
@@ -619,7 +618,8 @@ img {
   color: #333;
 }
 .what-content {
-  margin-top: 97px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .what-group-1 {
   width: 280px;
